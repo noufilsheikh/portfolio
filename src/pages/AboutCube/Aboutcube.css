@@ -1,0 +1,80 @@
+.stage-cube-cont {
+  position: relative;
+  top: -350px;
+  left: 1000px;
+}
+
+@media screen and (max-width: 1200px) {
+  .stage-cube-cont {
+     position: relative;
+     top: 50px;
+     left: 80px;
+
+}
+}
+
+
+.cubespinner div {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border: 1px solid #ccc;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 40px 0px lightblue;
+  text-align: center;
+  line-height: 180px;
+  font-size: 100px;
+}
+
+.cubespinner .face1 { 
+  transform: translateZ(100px);
+  color: #dd0031;
+}
+.cubespinner .face2 { 
+  transform: rotateY(90deg) translateZ(100px);
+  color: #f06529; 
+}
+.cubespinner .face3 { 
+  transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    color: #28a4d9;
+}
+.cubespinner .face4 { 
+  transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+    color: #5ed4f4;
+}
+.cubespinner .face5 { 
+  transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+    color: #efd81d;
+}
+.cubespinner .face6 { 
+  transform: rotateX(-90deg) translateZ(100px);
+    color: #ec4d28; 
+}
+
+.cubespinner {
+  -webkit-animation: spincube 12s ease-in-out infinite;
+  animation: spincube 12s ease-in-out infinite;
+  -webkit-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transform-origin: 60px 60px 0;
+  -ms-transform-origin: 60px 60px 0;
+  transform-origin: 60px 60px 0;
+}
+
+@-webkit-keyframes spincube {
+  16%      { -webkit-transform: rotateY(-90deg);                }
+  33%      { -webkit-transform: rotateY(-90deg) rotateZ(90deg); }
+  50%      { -webkit-transform: rotateY(180deg) rotateZ(90deg); }
+  66%      { -webkit-transform: rotateY(90deg) rotateX(90deg);  }
+  83%      { -webkit-transform: rotateX(90deg);                 }
+}
+@keyframes spincube {
+  16%      { -ms-transform: rotateY(-90deg); transform: rotateY(-90deg); }
+  33%      { -ms-transform: rotateY(-90deg) rotateZ(90deg); transform: rotateY(-90deg) rotateZ(90deg); }
+  50%      { -ms-transform: rotateY(180deg) rotateZ(90deg); transform: rotateY(180deg) rotateZ(90deg); }
+  66%      { -ms-transform: rotateY(90deg) rotateX(90deg); transform: rotateY(90deg) rotateX(90deg); }
+  83%      { -ms-transform: rotateX(90deg); transform: rotateX(90deg); }
+}
+
+
