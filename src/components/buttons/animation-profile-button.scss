@@ -1,21 +1,21 @@
-.log-inButton {
+
+.animationProfileButton {
     display: block;
     width: 100%;
     height: 50px;
     max-width: 200px;
     line-height: 50px;
     position: relative;
-    top: -218px;  
-    left: 215px;
+    top: -318px;  
+    left: 0px;
     margin: 50px 0;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
     color:#212020;
     font-family: Arial, Helvetica, sans-serif;
-    cursor:pointer;
 }
 
-.log-inButton div {
+.animationProfileButton div {
     width: 100%;
     height: 100%;
     position: relative;
@@ -23,7 +23,7 @@
     border-radius: 0 15px 0 15px;
   }
   
-  .log-inButton span.bg {
+  .animationProfileButton span.bg {
     width: 0%;
     height: 100%;
     position: absolute;
@@ -33,13 +33,13 @@
     transition: all 0.3s linear;
   }
   
-  .log-inButton:hover span.bg {
+  .animationProfileButton:hover span.bg {
     background: var(--color-tem);
     width: 110%;
     border-radius: 0 15px 0 15px;
   }
   
-  .log-inButton span.base {
+  .animationProfileButton span.base {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -49,7 +49,7 @@
     border: 1px solid var(--color-tem);
   }
   
-  .log-inButton span.text {
+  .animationProfileButton span.text {
     text-align: center;
     width: 100%;
     height: 100%;
@@ -57,6 +57,12 @@
     left: 0;
   }
   
-  .log-inButton:hover span.text {
+  .animationProfileButton:hover span.text {
     color: #2d2b2b;
+  }
+
+  .textAnimationProfile {
+    position: relative;
+    left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
   }

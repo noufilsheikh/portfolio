@@ -1,9 +1,8 @@
 import { useAuth0 } from "@auth0/auth0-react";
 import React from "react";
-import { CodeSnippet } from "../components/code-snippet";
-import { PageLayout } from "../components/page-layout";
 import { NavBar } from '../components/navigation/desktop/nav-bar';
 import  BlogPage   from './blogPage'
+
 import './Profile-page.scss';
 
 export const ProfilePage = () => {

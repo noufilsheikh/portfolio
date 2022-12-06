@@ -1,0 +1,56 @@
+.animationProfileContainer {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  position: relative;
+  top: -300px;
+  padding-right: 240px;
+}
+
+@media screen and (min-width: 2000px) {
+  .animationProfileContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+  @media screen and (max-width: 1900px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 980px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 690px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }

@@ -1,21 +1,21 @@
-.log-inButton {
+
+.projectsProfileButton {
     display: block;
     width: 100%;
     height: 50px;
     max-width: 200px;
     line-height: 50px;
     position: relative;
-    top: -218px;  
-    left: 215px;
+    top: -418px;  
+    left: -218px;
     margin: 50px 0;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
     color:#212020;
     font-family: Arial, Helvetica, sans-serif;
-    cursor:pointer;
 }
 
-.log-inButton div {
+.projectsProfileButton div {
     width: 100%;
     height: 100%;
     position: relative;
@@ -23,7 +23,7 @@
     border-radius: 0 15px 0 15px;
   }
   
-  .log-inButton span.bg {
+  .projectsProfileButton span.bg {
     width: 0%;
     height: 100%;
     position: absolute;
@@ -33,13 +33,13 @@
     transition: all 0.3s linear;
   }
   
-  .log-inButton:hover span.bg {
+  .projectsProfileButton:hover span.bg {
     background: var(--color-tem);
     width: 110%;
     border-radius: 0 15px 0 15px;
   }
   
-  .log-inButton span.base {
+  .projectsProfileButton span.base {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -49,7 +49,7 @@
     border: 1px solid var(--color-tem);
   }
   
-  .log-inButton span.text {
+  .projectsProfileButton span.text {
     text-align: center;
     width: 100%;
     height: 100%;
@@ -57,6 +57,12 @@
     left: 0;
   }
   
-  .log-inButton:hover span.text {
+  .projectsProfileButton:hover span.text {
     color: #2d2b2b;
+  }
+
+  .textProjectsProfile {
+    position: relative;
+    left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
   }

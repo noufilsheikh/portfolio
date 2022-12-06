@@ -2,6 +2,7 @@ import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ProfilePage } from "./pages/profile-page";
 import { ProtectedRoute } from "./components/protected-route";
+import AnimationProfile from './pages/animationProfile'
 
 // pages
 import {
@@ -37,6 +38,10 @@ const App = () => {
         <Route
           path="/profile"
           element={<ProtectedRoute component={ProfilePage} />}
+        />
+        <Route
+          path="/animationProfile"
+          element={<ProtectedRoute component={AnimationProfile} />}
         />
         <Route path="/tutorial" element={<Tutorial />} />
         <Route path="*" element={<ErrorPage />} />
