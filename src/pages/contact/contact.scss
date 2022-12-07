@@ -9,7 +9,7 @@
 @media screen and (max-width: 1200px) {
   .contact-section {
     position: relative;
-  top: -30px;
+  top: 200px;
   left: -150px;
   height: 2000px;
   }
@@ -24,16 +24,21 @@
 
   @media screen and (max-width: 980px) {
     .contact-section {
-      top: 400px;
+      top: 800px;
+  }
+}
+
+  @media screen and (max-width: 800px) {
+    .contact-section {
+      top: 600px;
   }
 }
 
   .contact-form {
   position: relative;
-  top: -400px;
+  top: -600px;
   }
   }
-
 
 .contact__heading {
   display: block;
@@ -161,9 +166,10 @@ button.contact-button:hover .message-deliver {
   }
 }
 .leaflet-container {
-  width: 100%;
+  width: 120%;
   height: 100%;
   position: relative;
+  left: -150px;
   animation: fadeInUp 1.2s;
 }
 
@@ -171,8 +177,10 @@ button.contact-button:hover .message-deliver {
   .contact-section {
     .leaflet-container {
       position: relative;
-      top: -400px;
-      width: 110%;
+      top: -500px;
+      left: 0px;
+      height: 60%;
+      width: 130%;
     }
   }
 }
@@ -181,7 +189,18 @@ button.contact-button:hover .message-deliver {
     .contact-section {
     .leaflet-container {
       top: -800px;
+      left: 0px;
       width: 100%;
+      height: 100%;
+  }
+}
+  }
+  
+    @media screen and (max-width: 800px) {
+    .contact-section {
+    .leaflet-container {
+      top: -1000px;
+      left: 0px;
   }
 }
   }
