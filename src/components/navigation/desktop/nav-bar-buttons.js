@@ -20,14 +20,19 @@ export const NavBarButtons = () => {
       )}
       {isAuthenticated && (
         <>
+        <div className="logoutProfileButton">
           <LogoutButton />
+          </div>
         </>
 
 
       )}
+      <div className="animationProfileButton">
   <AnimationProfileButton />
+  </div>
+  <div className="projectsProfileButton">
   <ProjectsProfileButton />
-      
+      </div>
       </div>
 
 

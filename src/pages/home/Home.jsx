@@ -13,7 +13,6 @@ const Home = () => {
         <About />
       </section>
       <ProjectPage />
-
       <Contact />
 
     </>

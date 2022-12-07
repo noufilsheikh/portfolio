@@ -81,20 +81,8 @@ const Header = () => {
             <MdArrowDropDown className="scroll__down switch__color" />
           </div>
 
-          <div className="nav-bar__buttons">
-      {!isAuthenticated && (
-        <>
-        <LoginButton />
-          <SignupButton />
-          
-        </>
-      )}
-      {isAuthenticated && (
-        <>
-          <LogoutButton />
-        </>
-      )}
-    </div>
+       
+  
         </main>
       </section>
     </>

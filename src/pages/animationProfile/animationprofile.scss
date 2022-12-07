@@ -6,6 +6,26 @@
   padding-right: 240px;
 }
 
+@media screen and (max-width: 1200px) {
+  .animationProfileContainer {
+      padding-right: 33px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .animationProfileContainer {
+    position: relative;
+  top: -200px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .animationProfileContainer {
+    position: relative;
+  top: -150px;
+  }
+}
+
 @media screen and (min-width: 2000px) {
   .animationProfileContainer {
     display: grid;
