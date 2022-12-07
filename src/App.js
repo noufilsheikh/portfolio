@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import { ProfilePage } from "./pages/profile-page";
 import { ProtectedRoute } from "./components/protected-route";
 import AnimationProfile from './pages/animationProfile'
@@ -23,7 +23,7 @@ import './utils/templateColors.scss'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Sidebar />
       <ThemeTemplate />
       <Routes>
@@ -44,7 +44,7 @@ const App = () => {
         />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
