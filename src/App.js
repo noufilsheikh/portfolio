@@ -12,7 +12,6 @@ import {
   Gaming,
   ProjectPage,
   ErrorPage,
-  Tutorial,
 } from './pages'
 
 import BlogPage from './pages/blogPage'
@@ -43,7 +42,6 @@ const App = () => {
           path="/animationProfile"
           element={<ProtectedRoute component={AnimationProfile} />}
         />
-        <Route path="/tutorial" element={<Tutorial />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </BrowserRouter>

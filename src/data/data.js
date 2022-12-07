@@ -24,6 +24,7 @@ import { AiFillHtml5 } from 'react-icons/ai'
 import { DiCss3, DiMongodb } from 'react-icons/di'
 import { IoLogoJavascript, IoLogoGameControllerB } from 'react-icons/io'
 import { FaNodeJs, FaGit } from 'react-icons/fa'
+import { FiLogIn } from 'react-icons/fi'
 
 // sidebar menu list and icons
 const sideBarMenu = [
@@ -43,38 +44,25 @@ const sideBarMenu = [
     url: '/project',
   },
   {
-    text: 'Contacts',
+    text: 'Contact',
     icon: <RiContactsLine className="link-icon" />,
     url: '/contact',
   },
   {
-    text: 'Tutorials',
-    icon: <SiFuturelearn className="link-icon" />,
-    url: '/tutorial',
-  },
-  {
     text: 'Profile',
-    icon: <IoLogoGameControllerB className="link-icon" />,
+    icon: <FiLogIn className="link-icon" />,
     url: '/profile',
   },
 ]
 // social media icons and url
 const socialIcons = [
   {
-    icon: <GrGithub className="icon switch__color" />,
-    url: 'https://github.com/Almarex-Web-Dev ',
-  },
-  {
-    icon: <FiYoutube className="icon switch__color" />,
-    url: 'https://www.youtube.com/c/AlmarexWebDev',
-  },
-  {
-    icon: <GrTwitter className="icon switch__color" />,
-    url: 'https://twitter.com/almarexwebdev',
-  },
-  {
     icon: <GrInstagram className="icon switch__color" />,
-    url: 'https://www.instagram.com/almarexwebdev1/',
+    url: 'https://www.instagram.com/stonedmaniaccc/',
+  },
+  {
+    icon: <GrGithub className="icon switch__color" />,
+    url: 'https://github.com/Glitxherrr ',
   },
   {
     icon: <FiLinkedin className="icon switch__color" />,
@@ -139,28 +127,6 @@ const skillSet = [
     spanText: 'NODE',
     url:
       'https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs',
-  },
-
-  {
-    icon: <DiMongodb className="skills-icon switch__color" />,
-    spanText: 'MONGO DB',
-    url: '',
-  },
-  {
-    icon: <SiExpress className="skills-icon switch__color" />,
-    spanText: 'EXPRESS JS',
-    url:
-      'https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Express',
-  },
-  {
-    icon: <SiRedux className="skills-icon switch__color" />,
-    spanText: 'Redux',
-    url: 'https://redux.js.org/introduction/getting-started',
-  },
-  {
-    icon: <FiFigma className="skills-icon switch__color" />,
-    spanText: 'Figma',
-    url: 'https://figma.com',
   },
   {
     icon: <BsGoogle className="skills-icon switch__color" />,

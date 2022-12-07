@@ -10,9 +10,31 @@
   .contact-section {
     position: relative;
   top: -30px;
+  left: -150px;
   height: 2000px;
   }
+
+
+  @media screen and (max-width: 1024px) {
+    .contact-section {
+      position: relative;
+      left: 0px;
+    }
   }
+
+  @media screen and (max-width: 980px) {
+    .contact-section {
+      top: 400px;
+  }
+}
+
+  .contact-form {
+  position: relative;
+  top: -400px;
+  }
+  }
+
+
 .contact__heading {
   display: block;
   font-size: 2rem;
@@ -150,8 +172,18 @@ button.contact-button:hover .message-deliver {
     .leaflet-container {
       position: relative;
       top: -400px;
+      width: 110%;
     }
   }
+}
+
+  @media screen and (max-width: 980px) {
+    .contact-section {
+    .leaflet-container {
+      top: -800px;
+      width: 100%;
+  }
+}
   }
 
 .map-content {

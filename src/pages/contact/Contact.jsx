@@ -110,10 +110,10 @@ const Contact = React.memo(() => {
       
     } else if (email && message) {
       emailjs.sendForm(
-        'service_rvlqach',
-        'template_d32ix5s',
+        'service_2s2zjib',
+        'template_yrmfqog',
         form.current,
-        'lD25U1N6WN3XbKSFV',
+        'jxqtJjFF9dRX5l7uC',
       )
       setSuccess(emailRef)
       setSuccess(TextAreaRef)
@@ -137,7 +137,7 @@ const Contact = React.memo(() => {
             <h2 aria-label="contact me" className="contact__heading">
               <Blast
                 letterClass={letterClass}
-                arrayStr={['C', 'o', 'n', 't', 'a', 'c', 't', '', 'm', 'e']}
+                arrayStr={['C', 'o', 'n', 't', 'a', 'c', 't', '', 'M', 'e']}
                 indexLetter={12}
               />
             </h2>
@@ -226,7 +226,7 @@ const Contact = React.memo(() => {
           </Fade>
           <Reveal bottom>
             <footer className="footer">
-              <p> &copy; copyright All Right Reserved Almarex - 2022</p>
+              <p> &copy; copyright All Right Reserved by Noufil Sheikh - 2022</p>
             </footer>
           </Reveal>
         </form>

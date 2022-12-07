@@ -103,10 +103,11 @@ ul.side-link li .link-icon {
 }
 .social-icon .icon {
   position: relative;
-  top: 15px;
-  display: block;
-  font-size: 15px;
+  top: 0px;
+  display: inline;
+  font-size: 40px;
   margin-bottom: 15px;
+  padding: 10px;
   transition: 0.2s linear;
   color: var(--color-tem);
   &:hover {
@@ -118,6 +119,7 @@ ul.side-link li .link-icon {
   .social-icon .icon {
 display: inline;
 margin-right: 15px;
+font-size: 40px;
 // for bigger screens
   }
 }
@@ -169,7 +171,7 @@ margin-right: 15px;
     text-align: center;
   }
   .social-icon .icon {
-    font-size: 25px;
+    font-size: 40px;
     &:hover {
       animation: rubberBand 1s;
     }

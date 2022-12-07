@@ -56,12 +56,12 @@ const About = () => {
             </Fade>
             <Fade bottom>
               <p>
-                I’m from Ivory Coast but currently living in Nigeria. I’m a
+                I’m from Mumbai, India. I’m a
                 freelancer who loves building cool UI effects, dynamic webpages
                 with amazing animations and creating intuitive, dynamic user
                 experiences. I also love to reach out to new opportunities
                 accross the globe that will enhance my skills and get the
-                opporutinity to work with other programmers as well
+                opporutinity to work with other programmers as well.
               </p>
             </Fade>
             <Fade bottom>
