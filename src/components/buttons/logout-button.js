@@ -7,7 +7,7 @@ export const LogoutButton = () => {
 
   const handleLogout = () => {
     logout({
-      returnTo: https://glitxherrr.github.io/portfolioreference/,
+  returnTo: process.env.AUTH0_POST_LOGOUT_REDIRECT,
     });
   };
 
