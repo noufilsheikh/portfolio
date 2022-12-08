@@ -16,8 +16,10 @@
 }
 
 @media screen and (min-width: 1632px) {
-  .logo-container {
-   display: none;
+  .logoAnimationContainer {
+    position: relative;
+    top: -590px;
+    left: 680px;
   }
 }
 
@@ -39,7 +41,7 @@
 }
 
 @media screen and (max-width: 1300px) {
-  .logo-container {
+  .logoAnimationContainer {
    display: none;
   }
 }
