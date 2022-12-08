@@ -15,7 +15,7 @@ export const LogoutButton = () => {
     <div className="log-inButton">
     <span className="bg switch__bg"></span>
     <span className="base switch__border-color"></span>
-    <span className="text" onClick={handleLogout}>
+    <span className="textLogoutButtonProfile" onClick={handleLogout}>
       Log Out
     </span>
     </div>
