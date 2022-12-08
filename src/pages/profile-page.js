@@ -25,7 +25,7 @@ export const ProfilePage = () => {
               />
               <div className="profile__headline">
                 <h2 className="profile__title">{user.name}</h2>
-                <span className="profile__description">{user.email}</span>
+                <span className="profileEmail">{user.email}</span>
 
                 <NavBar />
                 <BlogPage/>
