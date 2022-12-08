@@ -4,6 +4,16 @@
   left: 1000px;
 }
 
+@media screen and (min-width: 1632px) {
+  .stage-cube-cont {
+     position: relative;
+     top: -350px;
+     left: 120px;
+
+}
+}
+
+
 @media screen and (max-width: 1200px) {
   .stage-cube-cont {
      position: relative;

@@ -19,7 +19,7 @@ export const projects = [
     stack: 'HTML CSS JAVASCRIPT',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/Wordle-clone',
+      url: 'https://glitxherrr.github.io/portfolioreference/#/profile/',
     },
     website: {
       icon: <TbWorld />,
@@ -34,7 +34,7 @@ export const projects = [
     stack: 'React JS',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/Restaurant-Website-project',
+      url: 'https://glitxherrr.github.io/portfolioreference/#/profile/',
     },
     website: {
       icon: <TbWorld />,
@@ -51,7 +51,7 @@ export const projects = [
 
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/OpenAI-project',
+      url: 'https://glitxherrr.github.io/portfolioreference/#/profile/',
     },
     website: {
       icon: <TbWorld />,
@@ -65,7 +65,7 @@ export const projects = [
     stack: 'React JS',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/React-booking-project',
+      url: 'https://glitxherrr.github.io/portfolioreference/#/profile/',
     },
     website: {
       icon: <TbWorld />,
@@ -82,7 +82,7 @@ export const projects = [
     stack: 'React JS',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/rest-countries-api-project',
+      url: 'https://glitxherrr.github.io/portfolioreference/#/profile/',
     },
     website: {
       icon: <TbWorld />,
@@ -97,7 +97,7 @@ export const projects = [
     stack: 'React js, SCSS',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/Huddle-landing-page',
+      url: 'https://glitxherrr.github.io/portfolioreference/#/profile/',
     },
     website: {
       icon: <TbWorld />,
@@ -112,7 +112,7 @@ export const projects = [
     stack: 'React JS',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/React-booking-project',
+      url: 'https://glitxherrr.github.io/portfolioreference/#/profile/',
     },
     website: {
       icon: <TbWorld />,
@@ -128,7 +128,7 @@ export const projects = [
     stack: 'React JS',
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/Restaurant-Website-project',
+      url: 'https://glitxherrr.github.io/portfolioreference/#/profile/',
     },
     website: {
       icon: <TbWorld />,

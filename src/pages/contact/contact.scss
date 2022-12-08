@@ -173,6 +173,18 @@ button.contact-button:hover .message-deliver {
   animation: fadeInUp 1.2s;
 }
 
+@media screen and (min-width: 1636px) {
+  .contact-section {
+    .leaflet-container {
+      position: relative;
+      top: -500px;
+      left: 0px;
+      height: 60%;
+      width: 80%;
+    }
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .contact-section {
     .leaflet-container {
