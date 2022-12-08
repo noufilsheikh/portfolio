@@ -17,8 +17,18 @@
   height: 90px;
   transform: rotateZ(29.5deg) !important;
   animation: rotateIn 1s linear both !important;
-  animation-delay: 1.4s;
 }
+
+  @keyframes rotateIn {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+
 
 @media screen and (min-width: 0px) {
   .imgHome {
