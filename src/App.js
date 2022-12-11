@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom'
 import { ProfilePage } from "./pages/profile-page";
 import { ProtectedRoute } from "./components/protected-route";
 import AnimationProfile from './pages/animationProfile'
+import { Scale } from 'react-scaling';
 
 // pages
 import {
@@ -23,6 +24,7 @@ import './utils/templateColors.scss'
 
 const App = () => {
   return (
+    <Scale scaleTo={1497.6}>
     <HashRouter>
       <Sidebar />
       <ThemeTemplate />
@@ -45,6 +47,7 @@ const App = () => {
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </HashRouter>
+    </Scale>
   )
 }
 

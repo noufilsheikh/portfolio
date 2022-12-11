@@ -1,5 +1,5 @@
 {
-  "homepage": "http://glitxherrr.github.io/portfolioreference/",
+  "homepage": "https://glitxherrr.github.io/portfolioreference/",
   "name": "portfolioreference",
   "version": "0.1.0",
   "private": true,
@@ -30,6 +30,7 @@
     "react-progressbar": "^15.4.1",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^6.4.4",
+    "react-scaling": "^1.0.8",
     "react-scripts": "5.0.1",
     "react-spinners": "^0.13.6",
     "sass": "^1.56.1",
