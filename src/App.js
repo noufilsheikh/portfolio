@@ -1,5 +1,6 @@
 import React from 'react'
 import { HashRouter, Routes, Route } from 'react-router-dom'
+import { useState, useEffect } from 'react';
 import { ProfilePage } from "./pages/profile-page";
 import { ProtectedRoute } from "./components/protected-route";
 import AnimationProfile from './pages/animationProfile'
@@ -23,8 +24,22 @@ import { Sidebar, ThemeTemplate } from './components'
 import './utils/templateColors.scss'
 
 const App = () => {
+  const [windowSize, setWindowSize] = useState(getWindowSize());
+
+  useEffect(() => {
+    function handleWindowResize() {
+      setWindowSize(getWindowSize());
+    }
+
+    window.addEventListener('resize', handleWindowResize);
+
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
+  }, []);
+
   return (
-    <Scale scaleTo={1497.6}>
+    <Scale scaleTo={windowSize.innerWidth}>
     <HashRouter>
       <Sidebar />
       <ThemeTemplate />
@@ -48,7 +63,15 @@ const App = () => {
       </Routes>
     </HashRouter>
     </Scale>
+    
   )
 }
 
-export default App
+
+export default App;
+
+function getWindowSize() {
+  const {innerWidth, innerHeight} = window;
+  return {innerWidth, innerHeight};
+} 
+
