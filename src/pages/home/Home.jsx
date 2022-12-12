@@ -8,7 +8,7 @@ import { Contact, About, ProjectPage } from '../../pages'
 const Home = () => {
   return (
     <>
-      <Header />
+      <Header/>
       <section className="section-about">
         <About />
       </section>

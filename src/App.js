@@ -24,22 +24,10 @@ import { Sidebar, ThemeTemplate } from './components'
 import './utils/templateColors.scss'
 
 const App = () => {
-  const [windowSize, setWindowSize] = useState(getWindowSize());
 
-  useEffect(() => {
-    function handleWindowResize() {
-      setWindowSize(getWindowSize());
-    }
-
-    window.addEventListener('resize', handleWindowResize);
-
-    return () => {
-      window.removeEventListener('resize', handleWindowResize);
-    };
-  }, []);
 
   return (
-    <Scale scaleTo={windowSize.innerWidth}>
+
     <HashRouter>
       <Sidebar />
       <ThemeTemplate />
@@ -62,7 +50,7 @@ const App = () => {
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </HashRouter>
-    </Scale>
+
     
   )
 }
