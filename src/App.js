@@ -58,8 +58,3 @@ const App = () => {
 
 export default App;
 
-function getWindowSize() {
-  const {innerWidth, innerHeight} = window;
-  return {innerWidth, innerHeight};
-} 
-
