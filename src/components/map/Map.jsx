@@ -15,7 +15,7 @@ const Map = () => {
         <span>Location :  Nikunj School, Andheri (East),<br />
           Natwar Nagar, Mumbai: 400069</span>
         <br />
-        <span>Email: almarexwebdev@gmail.com</span>
+        <span>Email: noufilsheikh.ui.ux@gmail.com</span>
       </div>
     </MapContainer>
   )

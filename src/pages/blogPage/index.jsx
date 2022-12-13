@@ -14,7 +14,7 @@ const Blog = () => {
 
   return (
     <>
-      <Fade>
+
         <section className="section__blogpage section__padding">
           <div className="section__blogpage-wrapper">
             {blog.map((postsItems, index) => {
@@ -22,7 +22,6 @@ const Blog = () => {
             })}
           </div>
         </section>
-      </Fade>
     </>
   )
 }
