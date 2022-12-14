@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.818460dc.css",
+    "main.js": "/portfolio/static/js/main.0048565e.js",
+    "static/media/gericht.png": "/portfolio/static/media/gericht.d800d24737ff0bb5de73.png",
+    "static/media/gpt3.png": "/portfolio/static/media/gpt3.9bf6532fe9b6003ff584.png",
+    "static/media/mario.jpg": "/portfolio/static/media/mario.016b4796332ba7950263.jpg",
+    "static/media/maxresdefault.jpg": "/portfolio/static/media/maxresdefault.b9d2098187caaa328173.jpg",
+    "static/media/asphalt.jpg": "/portfolio/static/media/asphalt.e7fe8abf267adccf95b3.jpg",
+    "static/media/huddle.png": "/portfolio/static/media/huddle.083f04423be10fc36cc1.png",
+    "static/media/countryAPI.png": "/portfolio/static/media/countryAPI.5c31f165be344cbf716d.png",
+    "static/media/logo-node.png": "/portfolio/static/media/logo-node.1b32bf41954df3e5335a.png",
+    "static/media/sniper.jpg": "/portfolio/static/media/sniper.7200f8be61e9a433988a.jpg",
+    "static/media/undraw_under_construction_-46-pa.svg": "/portfolio/static/media/undraw_under_construction_-46-pa.f0a46e239835782348fcd73d64f13cf4.svg",
+    "static/media/MyCV.pdf": "/portfolio/static/media/MyCV.feba04067ffc8d730a6f.pdf",
+    "static/media/pes5.jpeg": "/portfolio/static/media/pes5.5c3c8bac912eeae27ca6.jpeg",
+    "static/media/undraw_feeling_blue_-4-b7q.svg": "/portfolio/static/media/undraw_feeling_blue_-4-b7q.25a59af09a15f6b97cdde63a1a137f26.svg",
+    "static/media/reactlogo.svg": "/portfolio/static/media/reactlogo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/portfolio/index.html",
+    "main.818460dc.css.map": "/portfolio/static/css/main.818460dc.css.map",
+    "main.0048565e.js.map": "/portfolio/static/js/main.0048565e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.818460dc.css",
+    "static/js/main.0048565e.js"
+  ]
+}
