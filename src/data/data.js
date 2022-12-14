@@ -62,11 +62,11 @@ const socialIcons = [
   },
   {
     icon: <GrGithub className="icon switch__color" />,
-    url: 'https://github.com/Glitxherrr ',
+    url: 'https://github.com/noufilsheikh/ ',
   },
   {
     icon: <FiLinkedin className="icon switch__color" />,
-    url: 'https://www.linkedin.com/in/almarex/',
+    url: 'https://www.linkedin.com/in/noufilsheikh/',
   },
 ]
 // programming lanuages (spanText), icons and url
