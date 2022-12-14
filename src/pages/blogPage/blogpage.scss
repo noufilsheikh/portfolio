@@ -1,59 +1,80 @@
-.section__blogpage {
-  margin: 100px 0;
-  position: relative;
-  top: -350px;
-  left: -210px;
-}
-
-.section__blogpage-wrapper {
+.animationProfileContainer {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  
+  grid-template-columns: repeat(1, 1fr);
+  position: relative;
+  top: -300px;
+  padding-right: 240px;
 }
 
 @media screen and (max-width: 1200px) {
-  .section__blogpage {
-  margin: 0px;
-  position: relative;
-  top: -300px;
-  left: -18px;
-} 
+  .animationProfileContainer {
+      padding-right: 33px;
+  }
 }
 
 @media screen and (max-width: 945px) {
-  .section__blogpage {
-  position: relative;
+  .animationProfileContainer {
+    position: relative;
   top: -200px;
-  left: -18px;
-} 
+  }
 }
 
 @media screen and (max-width: 676px) {
-  .section__blogpage {
-  position: relative;
+  .animationProfileContainer {
+    position: relative;
   top: -100px;
-  left: -18px;
-} 
-}
-
-@media screen and (max-width: 1900px) {
-  .section__blogpage-wrapper {
-    grid-template-columns: repeat(3, 1fr);
-    
-  }
-}
-@media screen and (max-width: 980px) {
-  .section__blogpage-wrapper {
-    grid-template-columns: repeat(2, 1fr);
-    
   }
 }
 
-@media screen and (max-width: 690px) {
-  .section__blogpage-wrapper {
-    grid-template-columns: repeat(1, 1fr);
+@media screen and (min-width: 2000px) {
+  .animationProfileContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
+  @media screen and (max-width: 1900px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
 
+  @media screen and (max-width: 980px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 690px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .animationProfileContainer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  .profile__description {
+  color: #767676;
+}
